@@ -1,3 +1,78 @@
 .about {
-	height: 100vh;
+	/* height: 300vh; */
 }
+
+.about__header {
+	padding-left: 8vw;
+	margin-top: 5%;
+	height: auto;
+	font-size: 22px;
+}
+
+.about__header span {
+	color: #fc415a;
+}
+
+.about__content {
+	width: inherit;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.about__content__left {
+	flex: 0.3;
+	height: 500px;
+}
+
+.about__content__right {
+	flex: 0.7;
+	width: inherit;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	background-color: #fc415a;
+	height: auto;
+	border-radius: 20px;
+	width: 90%;
+	padding-left: 3%;
+	padding-right: 3%;
+	margin-right: 50px;
+	display: flex;
+	align-items: center;
+	color: white;
+	flex-direction: column;
+	text-align: center;
+	box-shadow: 10px 10px 8px -4px #d5c1c4;
+}
+
+.card h2 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.card p {
+	font-family: cursive;
+}
+
+.card__items {
+	width: 100%;
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+}
+
+.card__item {
+	height: 100%;
+	width: 37%;
+}
+/* .card {
+	background-color: white;
+	width: 100%;
+	height: 33.3333%;
+	border-top: 2px solid gainsboro;
+} */
