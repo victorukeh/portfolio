@@ -42,7 +42,7 @@ const Navbar = () => {
                 })} value={active.experience} text="Education & Experience" />
                 {/* <HeaderLink setActive={async () => setActive({
                     home: false,
-                    about: false,
+                    about: false,un
                     education: true,
                     experience: false,
                     projects: false,

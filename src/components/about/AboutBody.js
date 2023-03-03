@@ -14,7 +14,7 @@ const AboutBody = () => {
             </div>
             <div className="about__content__right">
                 <div className='card'>
-                    <h2>A Software Engineer Located in Our Lovely Earth</h2>
+                    <h2>An Engineer ready to turn your dream into your reality</h2>
                     <p>Software engineer with about 3 years of experience in cloud engineering, software and web development, and automated
                         testing. Proven to be an individual that has leadership traits and works well within a team. Possesses demonstrable knowledge
                         of web-first application development and deployment. Key achievement: created 3 different web applications currently used
