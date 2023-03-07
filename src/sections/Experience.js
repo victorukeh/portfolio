@@ -15,7 +15,7 @@ import linux from "../styles/images/linux.png";
 import mysql from "../styles/images/mysql.png";
 import nestjs from "../styles/images/nestjs.png";
 import graphql from "../styles/images/graphql.png";
-import flutter from "../styles/images/flutter.png";
+// import flutter from "../styles/images/flutter.png";
 import Skill from "../components/experience/Skill";
 import Timeline from "../components/experience/Timeline";
 
@@ -59,22 +59,22 @@ const Experience = () => {
       <div className="experience_content">
         <div className="experience_skills">
           <div className="experience__skills__grading">
-            <Skill text="97%" color="#e6fceb" logo={node} />
-            <Skill text="93%" color="#e6f9fc" logo={react} />
-            <Skill text="98%" color="#e6fceb" logo={mongo} />
-            <Skill text="70%" color="#e1f9fc" logo={golang} />
+            <Skill text="97%" color="#e6fceb" logo={node} tooltip="Nodejs & Express"/>
+            <Skill text="93%" color="#e6f9fc" logo={react} tooltip="React"/>
+            <Skill text="98%" color="#e6fceb" logo={mongo} tooltip="MongoDB"/>
+            <Skill text="70%" color="#e1f9fc" logo={golang} tooltip="Golang"/>
             {/* <Skill text="60%" color="#dcecfa" logo={flutter} /> */}
-            <Skill text="80%" color="#d4ecfa" logo={docker} />
-            <Skill text="90%" color="#cce8ff" logo={postgres} />
-            <Skill text="70%" color="#cadafc" logo={kubernetes} />
-            <Skill text="80%" color="#dbdad9" logo={linux} />
-            <Skill text="94%" color="#e8dcfc" logo={redux} />
-            <Skill text="98%" color="#faefe1" logo={mysql} />
-            <Skill text="85%" color="#faf6d4" logo={python} />
-            <Skill text="70%" color="#fce6f5" logo={graphql} />
-            <Skill text="70%" color="#fae2de" logo={java} />
-            <Skill text="75%" color="#fad7df" logo={nestjs} />
-            <Skill text="60%" color="#faebd4" logo={aws} />
+            <Skill text="80%" color="#d4ecfa" logo={docker} tooltip="Docker"/>
+            <Skill text="90%" color="#cce8ff" logo={postgres} tooltip="Postgres"/>
+            <Skill text="70%" color="#cadafc" logo={kubernetes} tooltip="Kubernetes"/>
+            <Skill text="80%" color="#dbdad9" logo={linux} tooltip="Linux"/>
+            <Skill text="94%" color="#e8dcfc" logo={redux} tooltip="Redux"/>
+            <Skill text="98%" color="#faefe1" logo={mysql} tooltip="MySQL"/>
+            <Skill text="85%" color="#faf6d4" logo={python} tooltip="Python"/>
+            <Skill text="70%" color="#fce6f5" logo={graphql} tooltip="GraphQL"/>
+            <Skill text="70%" color="#fae2de" logo={java} tooltip="Java"/>
+            <Skill text="75%" color="#fad7df" logo={nestjs} tooltip="Nest.js"/>
+            <Skill text="60%" color="#faebd4" logo={aws} tooltip="Amazon Web Services"/>
           </div>
         </div>
         <div className="experience_timeline">
