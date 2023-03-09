@@ -14,6 +14,8 @@
 
 .header__content{
     margin-left: 4vw;
+    margin-right: 4vw;
+    padding-bottom: 15vh;
 }
 
 .project__header {
@@ -22,15 +24,17 @@
 	height: auto;
 	font-size: 40px;
 	padding-left: 0.5vw;
-
-    /* Remove later */
-    padding-bottom: 300px;
+  padding-bottom: 20px;
 }
 
 .project__header span {
 	color: #fc415a;
 }
 
+.project__carousel{
+  height: 500px;
+
+}
 .logo {
   width:50px;
   fill:white;

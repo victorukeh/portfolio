@@ -4,7 +4,7 @@ const Card = ({ logo, title, type, color, date, size }) => {
         <div className="education__card__top">
             <div className="education__info">
                 <div className="education__info__logo" style={{ backgroundColor: color }}>
-                    <img alt="" src={logo} className="education__image" style={{ height: size, height: size }}/>
+                    <img alt="" src={logo} height="50"/>
                 </div>
                 <div className="education__info__details">
                     <h3>{title}</h3>

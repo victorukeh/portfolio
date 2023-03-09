@@ -1,15 +1,19 @@
 import React from "react";
 import "../styles/css/project.css";
+import ProjectCarousel from "../components/project/ProjectCarousel";
 const Project = () => {
   return (
     // <div className="project">Project</div>
 
     <div class="header">
       <div class="header__content">
-       {/* Content */}
-       <h2 className="project__header">
-        <span>Projects</span> & Results
-      </h2>
+        {/* Content */}
+        <h2 className="project__header">
+          <span>Recent</span> Projects
+        </h2>
+        <div className="project__carousel">
+          {/* <ProjectCarousel /> */}
+        </div>
       </div>
       <div>
         <svg

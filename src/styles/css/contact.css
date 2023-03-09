@@ -1,3 +1,42 @@
 .contact{
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact__form{
+    height: 80%;
+    width: 60%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact__form h2{
+    font-size: 30px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    width: 670px;
+    justify-content: space-between;
+}
+
+.contact__info{
+    height: 70px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 6px;
+    align-items: center;
+}
+
+
+.contact__info img{
+    margin-left: 10%;
+    margin-right: 6%;
 }
