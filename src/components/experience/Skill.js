@@ -8,8 +8,8 @@ const Skill = ({ text, logo, color, tooltip }) => {
         data-tooltip={tooltip}
         style={{ backgroundColor: color }}
       >
-          <img alt="" src={logo} height="55" />
-          <p>{text}</p>
+          <img alt="" src={logo} height="60" />
+          {/* <p>{text}</p> */}
         </div>
     </>
   );

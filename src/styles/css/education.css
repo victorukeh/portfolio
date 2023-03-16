@@ -21,7 +21,8 @@
 }
 
 .education__card {
-	width: 400px;
+	width: 350px;
+	/* min-width: 35vw; */
 	height: 200px;
 	color: #ffffff;
 	background: rgba(255, 255, 255, 0.2);
