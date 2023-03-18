@@ -112,6 +112,46 @@
 	}
 }
 
+.scroll__navbar{
+	position: fixed;
+	margin-top: -20vh;
+	height: 50px;
+	width: 100%;
+	z-index: 1000000000000000000;
+	/* background-color: green; */
+	background: rgba(255, 255, 255, .7);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	display: flex;
+	justify-content: space-between;
+}
+
+.scroll__navbar__links{
+	width: 70%;
+	display: flex;
+	justify-content: center;
+
+}
+
+.scroll__navbar__links a{
+	text-decoration: none;
+	margin: 3vh 2%;
+	color: #333;
+	text-transform: uppercase;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: small;
+}
+
+.scroll__navbar__menu{
+	/* background-color: #591bc5; */
+	height: auto;
+	width: 100px;
+}
+
+.scroll__navbar__links a:hover{
+	color: gold;
+}
 .hello {
 	background-color: #ffffff;
 	width: 225px;
@@ -185,12 +225,12 @@
 
 .ball__container {
 	height: 600px;
-	position: absolute;
+	/* position: absolute; */
 	width: 99%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 1vh;
+	/* margin: 1vh; */
 	overflow-y: hidden;
 }
 
@@ -227,11 +267,7 @@
 	height: 400px;
 	border-radius: 100%;
 	background: #ccc;
-	/* animation: bounce 1s;
-	transform: translateY(0px);
-	animation-iteration-count: infinite;
-	position: absolute;
-	margin: 20px; */
+	z-index: 10000;
 }
 
 .jobs {
@@ -239,7 +275,8 @@
 	width: 130px;
 	background-color: white;
 	position: absolute;
-	margin: 30vh 23vw;
+	/* 60px 19vw */
+	margin: 190px 23vw;
 	border-radius: 10px;
 	display: flex;
 	flex-direction: column;
@@ -255,6 +292,13 @@
 .jobs p {
 	padding: 0px 0px 0px 0px;
 	margin: 3px 0px 0px 0px;
+}
+
+.person{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	position: absolute;
 }
 
 .avater {
@@ -510,6 +554,7 @@ nav ul li:hover {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	z-index: 10000;
 }
 
 .header__item p {

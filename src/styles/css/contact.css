@@ -53,9 +53,9 @@
     width: 30%;
 }
 
-.button{
+/* .button{
     margin-top: 35%;
-}
+} */
 
 @media only screen and (max-width: 1200px) {
     .contact__form__texts {

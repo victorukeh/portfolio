@@ -39,7 +39,6 @@ const Form = () => {
         />
       </div>
       <div className="contact__form__texts">
-        {" "}
         <TextField
           id="standard-helperText"
           defaultValue="Your message here..."
