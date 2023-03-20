@@ -1,9 +1,9 @@
 import React from 'react'
 import Bounce from './Bounce'
 import Avater from './Avater'
-const Person = () => {
+const Person = ({height}) => {
   return (
-    <div className='person'>
+    <div className={height < 901 ? 'person1' : "person"}>
         {/* <div className='person__container'> */}
         <Bounce/>
         <Avater/>

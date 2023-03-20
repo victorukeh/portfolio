@@ -14,13 +14,16 @@
 	0% {
 		background-position: 0% 50%;
 	}
+
 	50% {
 		background-position: 100% 50%;
 	}
+
 	100% {
 		background-position: 0% 50%;
 	}
 }
+
 .header__navbar {
 	height: 20vh;
 	width: 100%;
@@ -85,34 +88,39 @@
 		top: 0;
 		-webkit-animation-timing-function: ease-in;
 	}
-	40% {
-	}
+
+	40% {}
+
 	50% {
 		top: 140px;
 		height: 140px;
 		-webkit-animation-timing-function: ease-out;
 	}
+
 	55% {
 		top: 160px;
 		height: 120px;
 		-webkit-animation-timing-function: ease-in;
 	}
+
 	65% {
 		top: 120px;
 		height: 140px;
 		-webkit-animation-timing-function: ease-out;
 	}
+
 	95% {
 		top: 0;
 		-webkit-animation-timing-function: ease-in;
 	}
+
 	100% {
 		top: 0;
 		-webkit-animation-timing-function: ease-in;
 	}
 }
 
-.scroll__navbar{
+.scroll__navbar {
 	position: fixed;
 	margin-top: -20vh;
 	height: 50px;
@@ -125,16 +133,17 @@
 	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 	display: flex;
 	justify-content: space-between;
+	transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
-.scroll__navbar__links{
+.scroll__navbar__links {
 	width: 70%;
 	display: flex;
 	justify-content: center;
 
 }
 
-.scroll__navbar__links a{
+.scroll__navbar__links a {
 	text-decoration: none;
 	margin: 3vh 2%;
 	color: #333;
@@ -143,15 +152,30 @@
 	font-size: small;
 }
 
-.scroll__navbar__menu{
+.scroll__navbar__menu {
 	/* background-color: #591bc5; */
 	height: auto;
 	width: 100px;
 }
 
-.scroll__navbar__links a:hover{
+.scroll__navbar__links a:hover {
 	color: gold;
 }
+
+.mini__navbar {
+	width: 100%;
+	height: 10vh;
+	position: fixed;
+	background: rgba(255, 255, 255, .7);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	z-index: 1000000000000000000000;
+}
+
 .hello {
 	background-color: #ffffff;
 	width: 225px;
@@ -167,10 +191,14 @@
 .hello__wave {
 	flex: 0.4;
 	display: flex;
-	animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
-	animation-duration: 2.5s; /* Change to speed up or slow down */
-	animation-iteration-count: infinite; /* Never stop waving :) */
-	transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+	animation-name: wave-animation;
+	/* Refers to the name of your @keyframes element below */
+	animation-duration: 2.5s;
+	/* Change to speed up or slow down */
+	animation-iteration-count: infinite;
+	/* Never stop waving :) */
+	transform-origin: 70% 70%;
+	/* Pivot around the bottom-left palm */
 	display: inline-block;
 	padding-top: 20px;
 	padding-left: 10px;
@@ -180,24 +208,33 @@
 	0% {
 		transform: rotate(0deg);
 	}
+
 	10% {
 		transform: rotate(13deg);
-	} /* The following five values can be played with to make the waving more or less extreme */
+	}
+
+	/* The following five values can be played with to make the waving more or less extreme */
 	20% {
 		transform: rotate(-8deg);
 	}
+
 	30% {
 		transform: rotate(14deg);
 	}
+
 	40% {
 		transform: rotate(-4deg);
 	}
+
 	50% {
 		transform: rotate(10deg);
 	}
+
 	60% {
 		transform: rotate(0deg);
-	} /* Reset for the last half to pause */
+	}
+
+	/* Reset for the last half to pause */
 	100% {
 		transform: rotate(0deg);
 	}
@@ -294,7 +331,15 @@
 	margin: 3px 0px 0px 0px;
 }
 
-.person{
+.person {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+}
+
+.person1 {
+	padding-top: 20vh;
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -318,6 +363,7 @@
 	width: 550px;
 	/* height: inherit; */
 }
+
 /* @keyframes bounce {
 	0% {
 		top: 0;
@@ -357,6 +403,7 @@
 	width: 100%;
 	background: #fff;
 }
+
 /* ============= Animation background ========= */
 .background {
 	background: linear-gradient(132deg, #fc415a, #591bc5, #212335);
@@ -381,34 +428,41 @@
 	transform: scale(0) rotate(0deg) translate(-50%, -50%);
 	animation: cube 12s ease-in forwards infinite;
 }
+
 .cube:nth-child(2n) {
 	border-color: #fff;
 }
+
 .cube:nth-child(2) {
 	animation-delay: 2s;
 	left: 25vw;
 	top: 40vh;
 }
+
 .cube:nth-child(3) {
 	animation-delay: 4s;
 	left: 75vw;
 	top: 50vh;
 }
+
 .cube:nth-child(4) {
 	animation-delay: 6s;
 	left: 90vw;
 	top: 10vh;
 }
+
 .cube:nth-child(5) {
 	animation-delay: 8s;
 	left: 10vw;
 	top: 85vh;
 }
+
 .cube:nth-child(6) {
 	animation-delay: 10s;
 	left: 50vw;
 	top: 10vh;
 }
+
 /* ================= Header ============ */
 header {
 	position: absolute;
@@ -418,19 +472,23 @@ header {
 	margin: 0;
 	padding: 0;
 }
+
 /* navbar */
 nav {
 	color: #fff;
 	float: right;
 	margin: 30px 90px;
 }
+
 nav ul {
 	list-style: none;
 }
+
 nav ul li {
 	float: left;
 	transition: 0.3s;
 }
+
 nav ul li a {
 	text-decoration: none;
 	color: #efeef5;
@@ -438,10 +496,12 @@ nav ul li a {
 	font-size: 15px;
 	margin-left: 16px;
 }
+
 nav ul li:hover a {
 	text-decoration: none;
 	color: #591bc5;
 }
+
 nav ul li:hover {
 	height: 45px;
 	padding-top: 30px;
@@ -450,6 +510,7 @@ nav ul li:hover {
 	text-decoration: none;
 	transform: skew(15deg);
 }
+
 /* Logo */
 .logo {
 	width: 35px;
@@ -459,6 +520,7 @@ nav ul li:hover {
 	float: left;
 	transform: rotate(-30deg);
 }
+
 .logo span {
 	color: #591bc5;
 	font-size: 2em;
@@ -466,22 +528,26 @@ nav ul li:hover {
 	padding-left: 5px;
 	font-weight: bold;
 }
+
 /* Header content & title & button*/
 .header-content {
 	margin-top: 25%;
 	text-align: center;
 	color: #efeef5;
 }
+
 .header-content h1 {
 	text-transform: uppercase;
 	font-size: 3em;
 	letter-spacing: 1px;
 }
+
 .header-content p {
 	font-size: 20px;
 	line-height: 1.5;
 	margin: 20px auto;
 }
+
 .header-content button {
 	width: 140px;
 	margin: 20px 10px;
@@ -495,26 +561,32 @@ nav ul li:hover {
 	cursor: pointer;
 	transition: 0.3s;
 }
+
 .header-content button:hover {
 	border-radius: 0;
 }
+
 /* Animate Background*/
 @keyframes Gradient {
 	0% {
 		background-position: 0% 50%;
 	}
+
 	50% {
 		background-position: 100% 50%;
 	}
+
 	100% {
 		background-position: 0% 50%;
 	}
 }
+
 @keyframes cube {
 	from {
 		transform: scale(0) rotate(0deg) translate(-50%, -50%);
 		opacity: 1;
 	}
+
 	to {
 		transform: scale(20) rotate(960deg) translate(-50%, -50%);
 		opacity: 0;
@@ -535,6 +607,7 @@ nav ul li:hover {
 	height: 40px;
 	transition: 0.5s ease-in;
 }
+
 /* 
 .icon__logo {
 	color: white;
@@ -577,10 +650,12 @@ nav ul li:hover {
 		box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
 		transform: translatey(0px);
 	}
+
 	50% {
 		box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
 		transform: translatey(-20px);
 	}
+
 	100% {
 		box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
 		transform: translatey(0px);

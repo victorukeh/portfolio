@@ -13,6 +13,7 @@ import Pic2 from "../styles/images/pic-2.jpg"
 import Pic3 from "../styles/images/pic-3.png"
 import Person from '../components/header/Person'
 import ScrollNavbar from '../components/header/ScrollNavbar'
+import MiniNavbar from '../components/header/MiniNavbar'
 
 const Header = (props) => {
     const [navBg, setNavBg] = useState(false);
@@ -55,16 +56,16 @@ const Header = (props) => {
         // </div>
         <>
             <div class="container-fluid">
-                <div class="background">
+                <div className="background" >
                     <div class="cube"></div>
                     <div class="cube"></div>
                     <div class="cube"></div>
                     <div class="cube"></div>
                     <div class="cube"></div>
-                    <Navbar />
+                    {windowDimensions.width > 900 ? <Navbar /> : <MiniNavbar/>}
                     {windowDimensions.width > 800 && navBg && <ScrollNavbar />}
                     {windowDimensions.width > 800 && <Hello />}
-                    <Person/>
+                    <Person height={windowDimensions.width}/>
                     {/* <Bounce /> */}
                     {windowDimensions.width > 800 && <Jobs />}
                     {/* <Avater /> */}

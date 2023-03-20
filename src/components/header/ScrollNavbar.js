@@ -5,6 +5,7 @@ import { IconButton } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 
 const ScrollNavbar = () => {
+    
   return (
     <div className="scroll__navbar">
       <img alt="" src={victor} height="100" style={{ marginTop: "-22px" }} />
