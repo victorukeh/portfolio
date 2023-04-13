@@ -23,7 +23,7 @@ const Navbar = () => {
                     experience: false,
                     projects: false,
                     contact: false,
-                })} value={active.home} text="Home" />
+                })} value={active.home} text="Home" id="home"/>
                 <HeaderLink setActive={async () => setActive({
                     home: false,
                     about: true,
@@ -31,7 +31,7 @@ const Navbar = () => {
                     experience: false,
                     projects: false,
                     contact: false,
-                })} value={active.about} text="About" />
+                })} value={active.about} text="About" id="about"/>
                 <HeaderLink setActive={async () => setActive({
                     home: false,
                     about: false,
@@ -39,15 +39,15 @@ const Navbar = () => {
                     experience: true,
                     projects: false,
                     contact: false,
-                })} value={active.experience} text="Education & Experience" />
-                {/* <HeaderLink setActive={async () => setActive({
+                })} value={active.experience} text="Experience" id="exp"/>
+                <HeaderLink setActive={async () => setActive({
                     home: false,
-                    about: false,un
+                    about: false,
                     education: true,
                     experience: false,
                     projects: false,
                     contact: false,
-                })} value={active.education} text="Education" /> */}
+                })} value={active.education} text="Education" id="educate"/>
                 <HeaderLink setActive={async () => setActive({
                     home: false,
                     about: false,
@@ -55,7 +55,7 @@ const Navbar = () => {
                     experience: false,
                     projects: true,
                     contact: false,
-                })} value={active.projects} text="Projects" />
+                })} value={active.projects} text="Projects" id="projects"/>
                 <HeaderLink setActive={async () => setActive({
                     home: false,
                     about: false,
@@ -63,7 +63,7 @@ const Navbar = () => {
                     experience: false,
                     projects: false,
                     contact: true,
-                })} value={active.contact} text="Contact" />
+                })} value={active.contact} text="Contact" id="contact"/>
             </div>
             <div></div>
         </div >

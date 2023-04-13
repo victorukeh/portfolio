@@ -52,7 +52,7 @@ const works4 = [
 ];
 const Experience = () => {
   return (
-    <div className="experience">
+    <div className="experience" id="exp">
       <h2 className="experience__header">
         <span>Experience</span> & Skills
       </h2>

@@ -1,5 +1,6 @@
 import React from 'react'
-const Card = ({ logo, title, type, color, date, size }) => {
+import {Button} from "@mui/material"
+const Card = ({ logo, title, type, color, date, size , view}) => {
     return (<div className="education__card">
         <div className="education__card__top">
             <div className="education__info">
@@ -16,7 +17,7 @@ const Card = ({ logo, title, type, color, date, size }) => {
             </div>
         </div>
         <div className="education__card__bottom">
-            <p>View Certificate</p>
+           <Button disabled={!view ? true : false}><a href={view} target="_blank" style={{textDecoration: "none", color: "white"}}>VIEW CERTIFICATE</a></Button> 
         </div>
     </div>
     )

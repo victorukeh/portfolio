@@ -5,7 +5,7 @@ const Project = () => {
   return (
     // <div className="project">Project</div>
 
-    <div class="header">
+    <div class="header" id="projects">
       <div class="header__content">
         {/* Content */}
         <h2 className="project__header">
