@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import "../../styles/css/experience.css";
 const Skill = ({ text, logo, color, tooltip }) => {
   return (
@@ -8,8 +9,7 @@ const Skill = ({ text, logo, color, tooltip }) => {
         data-tooltip={tooltip}
         style={{ backgroundColor: color }}
       >
-          <img alt="" src={logo} className="experience__image" />
-          {/* <p>{text}</p> */}
+        <LazyLoadImage className="experience__image" src={logo} alt="Logo" />
         </div>
     </>
   );

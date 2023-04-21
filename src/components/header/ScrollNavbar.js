@@ -3,12 +3,15 @@ import "../../styles/css/header.css";
 import victor from "../../styles/images/v.png";
 import { IconButton } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const ScrollNavbar = () => {
     
   return (
     <div className="scroll__navbar">
-      <img alt="" src={victor} height="100" style={{ marginTop: "-22px" }} />
+      {/* <img alt="" src={victor} height="100" style={{ marginTop: "-22px" }} loading="lazy"/> */}
+      <LazyLoadImage src={victor} height={100} style={{ marginTop: "-22px" }} alt="Me" />
+         
       {/* <div>
             <h2>Logo</h2>
         </div> */}

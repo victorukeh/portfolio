@@ -7,11 +7,14 @@ import { GiPadlock } from "react-icons/gi";
 import { AiFillCode } from "react-icons/ai";
 import { BsFileEarmarkCodeFill } from "react-icons/bs";
 import { FaNetworkWired } from "react-icons/fa";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 const AboutBodyLarge = () => {
   return (
     <div className="about__content">
       <div className="about__content__left">
-        <img alt="" src={Boy} />
+      <LazyLoadImage src={Boy}
+        alt="Image Alt"
+      />
       </div>
       <div className="about__content__right">
         <div className="card">
