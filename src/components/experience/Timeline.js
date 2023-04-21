@@ -9,12 +9,10 @@ const Timeline = ({ works, date }) => {
       <div className="timeline__details">
         {works.map((work, id) => {
           return (
-            <>
-              <div key={work.title}>
-                <h3>{work.title}</h3>
-                <p>{work.place}</p>
-              </div>
-            </>
+            <div key={work.title}>
+              <h3>{work.title}</h3>
+              <p>{work.place}</p>
+            </div>
           );
         })}
       </div>

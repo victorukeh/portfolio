@@ -176,6 +176,14 @@
 	z-index: 100000000;
 }
 
+.mini__navbar__links {
+	text-decoration: none;
+	font-weight: inherit;
+	color: inherit;
+	/* font-size: 14px; */
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-size: inherit;
+}
 .hello {
 	background-color: #ffffff;
 	width: 225px;
@@ -660,6 +668,7 @@ nav ul li:hover {
 	color: #ffffff;
 	font-size: 27px;
 }
+
 
 @keyframes float {
 	0% {
