@@ -118,3 +118,9 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 }
+
+@media only screen and (max-width: 500px) {
+	.education {
+		margin-top: 0%;
+	}
+}

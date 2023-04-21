@@ -11,7 +11,6 @@ const Navbar = () => {
         projects: false,
         contact: false
     })
-    console.log(active.home)
     return (
         <div className="header__navbar">
             <div></div>

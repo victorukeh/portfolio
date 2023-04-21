@@ -54,6 +54,7 @@
 	margin-top: 4%;
 }
 
+
 .experience_skill p{
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -62,6 +63,10 @@
 	font-size: 13px;
   color:hsla(0, 0%, 20%, 0.9);
 
+}
+
+.experience__image{
+  height: 60px;
 }
 
 .experience__header {
@@ -341,4 +346,15 @@
 .tooltip-right:after {
   margin-left: 0;
   margin-bottom: -16px;
+}
+
+@media only screen and (max-width: 979px) {
+	.experience_skill{
+    width: 60px;
+    height: 60px;
+  }
+
+  .experience__image{
+    height: 30px;
+  }
 }

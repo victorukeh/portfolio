@@ -58,13 +58,13 @@ const Header = (props) => {
   return (
     // </div>
     <>
-      <div class="container-fluid" id="home">
+      <div className="container-fluid" id="home">
         <div className="background">
-          <div class="cube"></div>
-          <div class="cube"></div>
-          <div class="cube"></div>
-          <div class="cube"></div>
-          <div class="cube"></div>
+          <div className="cube"></div>
+          <div className="cube"></div>
+          <div className="cube"></div>
+          <div className="cube"></div>
+          <div className="cube"></div>
           {windowDimensions.width > 900 ? <Navbar /> : <MiniNavbar />}
           {windowDimensions.width > 800 && navBg && <ScrollNavbar />}
           {windowDimensions.width > 979 && <Hello />}
