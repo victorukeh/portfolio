@@ -1,10 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "../styles/css/header.css";
 import Navbar from "../components/header/Navbar";
 import Hello from "../components/header/Hello";
-import Bounce from "../components/header/Bounce";
 import Jobs from "../components/header/Jobs";
-import Avater from "../components/header/Avater";
 import IconList from "../components/header/IconList";
 import Ball from "../components/items/Ball";
 import Circle from "../components/header/Circle";
@@ -16,45 +14,8 @@ import ScrollNavbar from "../components/header/ScrollNavbar";
 import MiniNavbar from "../components/header/MiniNavbar";
 import TypeWriter from "../components/header/TypeWriter";
 
-const Header = (props) => {
-  const [navBg, setNavBg] = useState(false);
-  const isHome = props.name === "Homepage" ? true : false;
-
-  const changeNavBg = () => {
-    window.scrollY >= 10 ? setNavBg(true) : setNavBg(false);
-  };
-
-  const hasWindow = typeof window !== "undefined";
-
-  function getWindowDimensions() {
-    const width = hasWindow ? window.innerWidth : null;
-    const height = hasWindow ? window.innerHeight : null;
-    return {
-      width,
-      height,
-    };
-  }
-
-  const [windowDimensions, setWindowDimensions] = useState(
-    getWindowDimensions()
-  );
-  useEffect(() => {
-    if (hasWindow) {
-      function handleResize() {
-        setWindowDimensions(getWindowDimensions());
-      }
-
-      window.addEventListener("resize", handleResize);
-      return () => window.removeEventListener("resize", handleResize);
-    }
-  }, [hasWindow]);
-
-  useEffect(() => {
-    window.addEventListener("scroll", changeNavBg);
-    return () => {
-      window.removeEventListener("scroll", changeNavBg);
-    };
-  }, []);
+const Header = ({windowDimensions, navBg}) => {
+  
   return (
     // </div>
     <>
@@ -70,9 +31,7 @@ const Header = (props) => {
           {windowDimensions.width > 979 && <Hello />}
          {windowDimensions.width < 430 && <TypeWriter/>}
           <Person width={windowDimensions.width} />
-          {/* <Bounce /> */}
           {windowDimensions.width > 979 && <Jobs />}
-          {/* <Avater /> */}
           {windowDimensions.width > 979 && <IconList />}
           {windowDimensions.width > 979 && <Ball />}
           {windowDimensions.width > 979 && (

@@ -22,7 +22,6 @@
 
 .education__card {
 	width: 370px;
-	/* min-width: 35vw; */
 	height: 200px;
 	color: #ffffff;
 	background: rgba(255, 255, 255, 0.2);
@@ -84,6 +83,10 @@
 	margin-left: 12px;
 }
 
+.education__info__image{
+	height: 50px;
+}
+
 .education__info__details {
 	display: flex;
 	flex-direction: column;
@@ -110,6 +113,7 @@
 		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 	/* background-color: rgb(29, 2, 79); */
 }
+
 .education__institutions {
 	display: flex;
 	justify-content: space-between;
@@ -119,8 +123,30 @@
 	flex-wrap: wrap;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 979px) {
 	.education {
 		margin-top: 0%;
+	}
+
+	.education__institutions {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.education__card {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.education__info__logo {
+		height: 65px;
+		width: 65px;
+	}
+
+	.education__info__image{
+		height: 30px;
 	}
 }

@@ -79,6 +79,13 @@
 	width: 37%;
 }
 
+.card__item__component{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
 @media only screen and (max-width: 900px){
 
 	/*Tablets [601px -> 1200px]*/

@@ -59,6 +59,9 @@
 } */
 
 @media only screen and (max-width: 1200px) {
+    .contact__form{
+        padding-top: 50px;
+    }
     .contact__form__texts {
         width: 70%;
         display: flex;
@@ -76,6 +79,14 @@
         /* width: 670px; */
         justify-content: space-around;
         align-items: center;
+    }
+
+}
+
+
+@media only screen and (max-width: 950px) {
+    .contact__form{
+        padding-top: 150px;
     }
 
 }

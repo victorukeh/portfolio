@@ -146,7 +146,6 @@
 .scroll__navbar__links a {
 	text-decoration: none;
 	margin: 3vh 2%;
-	color: #333;
 	text-transform: uppercase;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-size: small;
@@ -159,6 +158,13 @@
 }
 
 .scroll__navbar__links a:hover {
+	color: gold;
+}
+
+.scrollbar__inactive{
+	color: #333;
+}
+.scrollbar__active{
 	color: gold;
 }
 

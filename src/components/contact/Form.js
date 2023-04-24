@@ -40,13 +40,23 @@ const Form = () => {
       </div>
       <div className="contact__form__texts">
         <TextField
+          id="outlined-basic"
+          label="Your message here..."
+          variant="filled"
+          style={{height: "60px"}}
+          multiline="true" rows="4"
+          fullWidth
+        />
+        {/* <TextField
           id="standard-helperText"
           defaultValue="Your message here..."
           variant="standard"
           fullWidth
-        />
+        /> */}
       </div>
-      <Button variant="text" style={{marginTop: "40px"}}>Send Message</Button>
+      <Button variant="text" style={{ marginTop: "100px" }}>
+        Send Message
+      </Button>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from "../components/education/Card"
-import baptist from "../styles/images/baptist.png"
+// import baptist from "../styles/images/baptist.png"
 import cu from "../styles/images/cu_logo.png"
 import ccna from "../styles/images/ccna.png"
 import udacity from "../styles/images/udacity.png"

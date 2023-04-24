@@ -10,7 +10,7 @@ const Card = ({ logo, title, type, color, date, size, view }) => {
             className="education__info__logo"
             style={{ backgroundColor: color }}
           >
-            <LazyLoadImage src={logo} height={50} alt="Logo" />
+            <LazyLoadImage src={logo} className="education__info__image" alt="Logo" />
           </div>
           <div className="education__info__details">
             <h3>{title}</h3>
@@ -26,6 +26,7 @@ const Card = ({ logo, title, type, color, date, size, view }) => {
           <a
             href={view}
             target="_blank"
+            rel="noreferrer"
             style={{ textDecoration: "none", color: "white" }}
           >
             VIEW CERTIFICATE

@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/css/project.css";
-import ProjectCarousel from "../components/project/ProjectCarousel";
+import Card from "../components/project/Card";
 const Project = () => {
   return (
     // <div className="project">Project</div>
@@ -13,6 +13,7 @@ const Project = () => {
         </h2>
         <div className="project__carousel">
           {/* <ProjectCarousel /> */}
+          <Card/>
         </div>
       </div>
       <div>
