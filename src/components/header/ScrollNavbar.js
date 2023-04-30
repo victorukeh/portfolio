@@ -15,7 +15,6 @@ const ScrollNavbar = () => {
       <LazyLoadImage
         src={victor}
         height={100}
-        style={{ marginTop: "-22px" }}
         alt="Me"
       />
       <div className="scroll__navbar__links">

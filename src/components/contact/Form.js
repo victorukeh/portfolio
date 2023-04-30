@@ -44,7 +44,8 @@ const Form = () => {
           label="Your message here..."
           variant="filled"
           style={{height: "60px"}}
-          multiline="true" rows="4"
+          multiline={true}
+          rows="4"
           fullWidth
         />
         {/* <TextField

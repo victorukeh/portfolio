@@ -9,7 +9,7 @@ const Project = () => {
       <div className="header__content">
         {/* Content */}
         <h2 className="project__header">
-          <span>Recent</span> Projects
+          <span>Recent</span> Personal Projects
         </h2>
         <div className="project__carousel">
           {/* <ProjectCarousel /> */}

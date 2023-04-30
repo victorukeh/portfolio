@@ -123,6 +123,17 @@
 	flex-wrap: wrap;
 }
 
+@media only screen and (min-width:1590px){
+    .education {
+		margin-top: 0%;
+	}
+
+	.education__card {
+		width: 30%;
+	}
+	
+}
+
 @media only screen and (max-width: 979px) {
 	.education {
 		margin-top: 0%;
