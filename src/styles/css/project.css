@@ -308,5 +308,11 @@
     padding: 10px;
     padding-top: 1vh;
   }
+
+  .carousel-item__img {
+    width: 200px;
+    height: 250px;
+  }
+  
 }
 

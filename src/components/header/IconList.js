@@ -8,9 +8,9 @@ const IconList = () => {
     return (
         <div className='icon__list'>
             {/* #172b4d */}
-            <IconButton icon={<AiOutlineTwitter />} background="#1da1f2" color="#ffffff" />
-            <IconButton icon={<FaFacebookF />} background="#4267B2" color="#ffffff" />
-            <IconButton icon={<FaGithubAlt />} background="#000000" color="#ffffff" />
+            <IconButton icon={<AiOutlineTwitter />} background="#1da1f2" color="#ffffff" link="https://twitter.com/ValescaVic"/>
+            <IconButton icon={<FaFacebookF />} background="#4267B2" color="#ffffff" link="https://web.facebook.com/victor.ukeh.16/"/>
+            <IconButton icon={<FaGithubAlt />} background="#000000" color="#ffffff" link="https://github.com/victorukeh"/>
         </div>
     )
 }

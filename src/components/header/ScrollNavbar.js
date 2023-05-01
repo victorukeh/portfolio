@@ -1,17 +1,16 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "../../styles/css/header.css";
 import { IconButton } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const ScrollNavbar = () => {
-  const [active, setActive] = useState("home")
-  const changeActive = async(id) => {
-    await setActive(id)
-  }
+  const [active, setActive] = useState("home");
+  const changeActive = async (id) => {
+    await setActive(id);
+  };
   return (
     <div className="scroll__navbar">
-      <LazyLoadImage
+      <img
         src="https://drive.google.com/uc?export=view&id=1fwGjDgOaE4Nn3yBNL2cAQz5W-bRBj8Hv"
         height={100}
         alt="Me"
