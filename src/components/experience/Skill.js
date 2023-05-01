@@ -10,7 +10,7 @@ const Skill = ({ text, logo, color, tooltip }) => {
         style={{ backgroundColor: color }}
       >
         <LazyLoadImage className="experience__image" src={logo} alt="Logo" />
-        </div>
+      </div>
     </>
   );
 };

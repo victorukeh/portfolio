@@ -46,12 +46,6 @@ const Form = () => {
           rows="4"
           fullWidth
         />
-        {/* <TextField
-          id="standard-helperText"
-          defaultValue="Your message here..."
-          variant="standard"
-          fullWidth
-        /> */}
       </div>
       <Button variant="text" style={{ marginTop: "100px" }}>
         Send Message

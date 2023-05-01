@@ -3,8 +3,6 @@ import "../styles/css/project.css";
 import Card from "../components/project/Card";
 const Project = () => {
   return (
-    // <div className="project">Project</div>
-
     <div className="header" id="projects">
       <div className="header__content">
         {/* Content */}
