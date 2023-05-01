@@ -1,15 +1,15 @@
-import React from 'react'
+import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import avater from "../../styles/images/avater2.png"
-// import me from "../../styles/images/me.png"
 
 const Avater = () => {
-    return (
-        <div className="avater">
-            <LazyLoadImage src={avater} alt="Avater" />
-         
-        </div>
-    )
-}
+  return (
+    <div className="avater">
+      <LazyLoadImage
+        src="https://drive.google.com/uc?export=view&id=1v28fC-Yhh1nwVbZt9CClUo2ypvLU9icf"
+        alt="Avater"
+      />
+    </div>
+  );
+};
 
-export default Avater
+export default Avater;

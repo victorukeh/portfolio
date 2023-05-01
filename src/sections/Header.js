@@ -6,9 +6,6 @@ import Jobs from "../components/header/Jobs";
 import IconList from "../components/header/IconList";
 import Ball from "../components/items/Ball";
 import Circle from "../components/header/Circle";
-import Pic1 from "../styles/images/pic-1.jpg";
-import Pic2 from "../styles/images/pic-2.jpg";
-import Pic3 from "../styles/images/pic-3.png";
 import Person from "../components/header/Person";
 import ScrollNavbar from "../components/header/ScrollNavbar";
 import MiniNavbar from "../components/header/MiniNavbar";
@@ -40,7 +37,7 @@ const Header = ({windowDimensions, navBg}) => {
               text="protector"
               marginLeft={windowDimensions.width < 1100 ? "76vw" : "70vw"}
               marginTop={windowDimensions.width < 1100 ? "340px" : "270px"}
-              photo={Pic2}
+              photo="https://drive.google.com/uc?export=view&id=1alkGVwrJw8fi0Sd_cj6PvCroZ0VpoOum"
             />
           )}
           {windowDimensions.width > 979 && (
@@ -49,7 +46,7 @@ const Header = ({windowDimensions, navBg}) => {
               text="programmer"
               marginLeft={windowDimensions.width < 1100 ? "80vw" : "75vw"}
               marginTop={windowDimensions.width < 1100 ? "120px" : "50px"}
-              photo={Pic1}
+              photo="https://drive.google.com/uc?export=view&id=1fZSdUiGAQZgS9byNHuD4meWLbjoljzBo"
             />
           )}
           {windowDimensions.width > 979 && (
@@ -58,7 +55,7 @@ const Header = ({windowDimensions, navBg}) => {
               text="Designer"
               marginLeft={windowDimensions.width < 1100 ? "72vw" : "65vw"}
               marginTop="-15px"
-              photo={Pic3}
+              photo="https://drive.google.com/uc?export=view&id=1lcF9GfR46RwlHc3fF69qZY-JqB_Dn2zc"
             />
           )}
         </div>

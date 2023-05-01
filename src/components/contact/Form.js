@@ -1,6 +1,4 @@
 import React from "react";
-import envelope from "../../styles/images/envelope.png";
-import phone from "../../styles/images/phone.png";
 import ContactInfo from "./ContactInfo";
 import { TextField, Button } from "@mui/material";
 import "../../styles/css/contact.css";
@@ -13,9 +11,9 @@ const Form = () => {
         <ContactInfo
           text="victorukeh1@gmail.com"
           color="#f6f6f6"
-          icon={envelope}
+          icon="https://drive.google.com/uc?export=view&id=13hhRRgC3s6EVcZX7cXBfUJk_vFKeNgQH"
         />
-        <ContactInfo text="(+234)904-665-9704" color="#55c2f2" icon={phone} />
+        <ContactInfo text="(+234)904-665-9704" color="#55c2f2" icon="https://drive.google.com/uc?export=view&id=1AtyN-w_VHkHSqfujNyg4rRNcDlOXxJOk" />
       </div>
       <div className="contact__form__texts">
         <TextField

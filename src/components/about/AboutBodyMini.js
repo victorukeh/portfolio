@@ -1,5 +1,4 @@
 import React from "react";
-import Boy from "../../styles/images/boy.png";
 import { BsServer } from "react-icons/bs";
 import { AiFillCloud } from "react-icons/ai";
 import { GiPadlock } from "react-icons/gi";
@@ -12,7 +11,7 @@ const AboutBodyMini = () => {
   return (
     <div>
       <div className="about__content__left">
-        <LazyLoadImage src={Boy} alt="Boy" />
+        <LazyLoadImage src="https://drive.google.com/uc?export=view&id=1gxrL3vIUS9EtXE1E_IY9FgHBfHbM8Hlx" alt="Boy" />
       </div>
 
       <div className="card-mini">

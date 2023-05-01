@@ -1,5 +1,4 @@
 import React from "react";
-import victor from "../../styles/images/v.png";
 import { IconButton } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import Menu from '@mui/material/Menu';
@@ -19,7 +18,7 @@ const MiniNavbar = () => {
   return (
     <div className="mini__navbar">
       <LazyLoadImage
-        src={victor}
+        src="https://drive.google.com/uc?export=view&id=1fwGjDgOaE4Nn3yBNL2cAQz5W-bRBj8Hv"
         height={100}
         style={{ marginTop: "-22px" }}
         alt="Me"
