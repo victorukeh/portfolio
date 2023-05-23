@@ -5,14 +5,21 @@ import { GiPadlock } from "react-icons/gi";
 import { AiFillCode } from "react-icons/ai";
 import { BsFileEarmarkCodeFill } from "react-icons/bs";
 import { FaNetworkWired } from "react-icons/fa";
-import { LazyLoadImage } from "react-lazy-load-image-component";
+// import { LazyLoadImage } from "react-lazy-load-image-component";
+import { motion } from "framer-motion";
 const AboutBodyLarge = () => {
   return (
-    <div className="about__content">
+    <motion.div
+      className="about__content"
+      animate={{ scale: 1 }}
+      transition={{ type: "spring", damping: 3, delay: 0.3}}
+      whileHover={{ scale: 1.02}}
+    >
       <div className="about__content__left">
-      <LazyLoadImage src="https://drive.google.com/uc?export=view&id=1gxrL3vIUS9EtXE1E_IY9FgHBfHbM8Hlx"
-        alt="Image Alt"
-      />
+        <img
+          src="https://drive.google.com/uc?export=view&id=1gxrL3vIUS9EtXE1E_IY9FgHBfHbM8Hlx"
+          alt="cartoon"
+        />
       </div>
       <div className="about__content__right">
         <div className="card">
@@ -64,7 +71,7 @@ const AboutBodyLarge = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

@@ -54,22 +54,22 @@ const Card = () => {
             <h6 className="carousel-item__details--subtitle">I developed a portfolio website application to help employers guage <wbr></wbr>what I can do while showing my creativity</h6>
           </div>
         </div>
-        {/* <div className="carousel-item">
+        <div className="carousel-item">
           <img
             className="carousel-item__img"
-            src="https://images.pexels.com/photos/1071882/pexels-photo-1071882.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-            alt="people"
+            src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1772&q=80"
+            alt="exam"
           />
           <div className="carousel-item__details">
             <div className="controls">
               <span className="fas fa-play-circle"></span>
               <span className="fas fa-plus-circle"></span>
             </div>
-            <h5 className="carousel-item__details--title">Descriptive Title</h5>
-            <h6 className="carousel-item__details--subtitle">Date and Duration</h6>
+            <h5 className="carousel-item__details--title">Orion CBT platform</h5>
+            <h6 className="carousel-item__details--subtitle">I developed a computer based testing application to help <wbr></wbr>lecturers and students handle management of exams and exam data</h6>
           </div>
         </div>
-        <div className="carousel-item">
+       {/*  <div className="carousel-item">
           <img
             className="carousel-item__img"
             src="https://images.pexels.com/photos/417344/pexels-photo-417344.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
