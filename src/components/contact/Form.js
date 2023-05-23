@@ -1,9 +1,9 @@
 import React, { useState, useRef } from "react";
+import { TextField, Button } from "@mui/material";
 import ContactInfo from "./ContactInfo";
 import emailjs from "emailjs-com";
-import { TextField, Button } from "@mui/material";
-import "../../styles/css/contact.css";
 import Message from "./Message";
+import "../../styles/css/contact.css";
 
 const Form = () => {
   const [name, setName] = useState("");
