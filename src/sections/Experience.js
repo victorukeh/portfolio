@@ -2,6 +2,21 @@ import React from "react";
 import "../styles/css/experience.css";
 import Skill from "../components/experience/Skill";
 import Timeline from "../components/experience/Timeline";
+import NodeJS from "../styles/images/nodejs.png"
+import ReactJs from "../styles/images/react.png"
+import MongoDb from "../styles/images/mongo.png"
+import Golang from "../styles/images/golang.png"
+import Docker from "../styles/images/docker.png"
+import Postgres from "../styles/images/postgres.png"
+import Kubernetes from "../styles/images/kubernetes.png"
+import Linux from "../styles/images/linux.png"
+import Redux from "../styles/images/redux.svg"
+import MySql from "../styles/images/mysql.png"
+import Python from "../styles/images/python.png"
+import GraphQL from "../styles/images/graphql.png"
+import Java from "../styles/images/java.png"
+import Nest from "../styles/images/nestjs.png"
+import Aws from "../styles/images/aws.png"
 
 const works1 = [
   {
@@ -46,92 +61,92 @@ const Experience = () => {
             <Skill
               text="97%"
               color="#e6fceb"
-              logo="https://drive.google.com/uc?export=view&id=1MEPb8xr8bNJYKT8Mv6Y0_ziU38d-5bAS"
+              logo={NodeJS}
               tooltip="Nodejs & Express"
             />
             <Skill
               text="93%"
               color="#e6f9fc"
-              logo="https://drive.google.com/uc?export=view&id=1KR-xlav6bhQxZzj0hxmxGHKy9GYfZHPa"
+              logo={ReactJs}
               tooltip="React"
             />
             <Skill
               text="98%"
               color="#e6fceb"
-              logo="https://drive.google.com/uc?export=view&id=1Y1ZE6ty6Su6coWty1jkVBdYF8ekeQK9w"
+              logo={MongoDb}
               tooltip="MongoDB"
             />
             <Skill
               text="70%"
               color="#e1f9fc"
-              logo="https://drive.google.com/uc?export=view&id=1PvlDf0-EchKgZ0kDmEYgB4qXHoKcenr_"
+              logo={Golang}
               tooltip="Golang"
             />
             {/* <Skill text="60%" color="#dcecfa" logo={flutter} /> */}
             <Skill
               text="80%"
               color="#d4ecfa"
-              logo="https://drive.google.com/uc?export=view&id=1ivb5qM5g1_jb_cxbPZ9JeE4LUMC7OEcx"
+              logo={Docker}
               tooltip="Docker"
             />
             <Skill
               text="90%"
               color="#cce8ff"
-              logo="https://drive.google.com/uc?export=view&id=1rmY_Omx3cKQfk2p-9b2oAybyPTwv7v4P"
+              logo={Postgres}
               tooltip="Postgres"
             />
             <Skill
               text="70%"
               color="#cadafc"
-              logo="https://drive.google.com/uc?export=view&id=1DvB7-jflxL-0_YQh2LKnhV2vMpRzVVpz"
+              logo={Kubernetes}
               tooltip="Kubernetes"
             />
             <Skill
               text="80%"
               color="#dbdad9"
-              logo="https://drive.google.com/uc?export=view&id=14PaLtP8x-dEeKuWk4y_v5vRmOpueah3C"
+              logo={Linux}
               tooltip="Linux"
             />
             <Skill
               text="94%"
               color="#e8dcfc"
-              logo="https://drive.google.com/uc?export=view&id=1THPJqA1Tei9dBgv5a5twIgsHPfYq8Hmh"
+              logo={Redux}
               tooltip="Redux"
             />
             <Skill
               text="98%"
               color="#faefe1"
-              logo="https://drive.google.com/uc?export=view&id=1ZIBT1CxH0ng76OzqHrX0sYxipuLaRfaZ"
+              logo={MySql}
               tooltip="MySQL"
             />
             <Skill
               text="85%"
               color="#faf6d4"
-              logo="https://drive.google.com/uc?export=view&id=1OPwY-VzzPToCZDlq5v8K-idubzUWU4WC"
+              logo={Python}
               tooltip="Python"
             />
             <Skill
               text="70%"
               color="#fce6f5"
-              logo="https://drive.google.com/uc?export=view&id=1zQCDZg5ML7KTc51Yraf3sXhJW_-AE4w4"
+              logo={GraphQL}
               tooltip="GraphQL"
             />
             <Skill
               text="70%"
               color="#fae2de"
-              logo="https://drive.google.com/uc?export=view&id=1feQ6CvQx42tM3BQ3D0lHEZzvGPdD7GWC"
+              logo={Java}
               tooltip="Java"
             />
             <Skill
               text="75%"
               color="#fad7df"
-              logo="https://drive.google.com/uc?export=view&id=1bMr3qXL7PLyYcuvOkE1nMcfoIiKH6Pc8"
+              logo={Nest}
               tooltip="Nest.js"
             />
             <Skill
               text="60%"
               color="#faebd4"
-              logo="https://drive.google.com/uc?export=view&id=1utGzIEbPOI_mJz9IAZoDm2wEDBBNvwn6"
+              logo={Aws}
               tooltip="Amazon Web Services"
             />
           </div>

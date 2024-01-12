@@ -11,7 +11,7 @@ import ScrollNavbar from "../components/header/ScrollNavbar";
 import MiniNavbar from "../components/header/MiniNavbar";
 import TypeWriter from "../components/header/TypeWriter";
 import Pic2 from "../styles/images/pic-2.jpeg"
-import Pic1 from "../styles/images/pic-1.png"
+import Pic1 from "../styles/images/pic-1.jpeg"
 import Pic3 from "../styles/images/pic-3.png"
 
 const Header = ({windowDimensions, navBg}) => {
