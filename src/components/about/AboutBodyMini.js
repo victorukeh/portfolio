@@ -35,7 +35,7 @@ const AboutBodyMini = () => {
             </div>
             <div className="card__item__component">
               <FaNetworkWired size={30} />
-              <p>Network Engineering</p>
+              <p>Solutions Architect</p>
             </div>
           </div>
           {/* <hr /> */}

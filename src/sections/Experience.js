@@ -30,7 +30,7 @@ const works3 = [
 
 const works4 = [
   {
-    title: "Junior Software Engineer",
+    title: "Fullstack Developer",
     place: "IX note service Ltd",
   },
 ];
