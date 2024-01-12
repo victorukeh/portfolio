@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../../styles/css/header.css";
 import { IconButton } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
+import V from "../../styles/images/v.png"
 
 const ScrollNavbar = () => {
   const [active, setActive] = useState("home");
@@ -11,7 +12,7 @@ const ScrollNavbar = () => {
   return (
     <div className="scroll__navbar">
       <img
-        src="https://drive.google.com/uc?export=view&id=1fwGjDgOaE4Nn3yBNL2cAQz5W-bRBj8Hv"
+        src={V}
         height={100}
         alt="Me"
       />

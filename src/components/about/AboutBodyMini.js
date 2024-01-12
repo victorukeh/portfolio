@@ -5,13 +5,14 @@ import { GiPadlock } from "react-icons/gi";
 import { AiFillCode } from "react-icons/ai";
 import { BsFileEarmarkCodeFill } from "react-icons/bs";
 import { FaNetworkWired } from "react-icons/fa";
+import Boy from "../../styles/images/boy.png"
 // import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const AboutBodyMini = () => {
   return (
     <div>
       <div className="about__content__left">
-        <img src="https://drive.google.com/uc?export=view&id=1gxrL3vIUS9EtXE1E_IY9FgHBfHbM8Hlx" alt="Boy" />
+        <img src={Boy} alt="Boy" />
       </div>
 
       <div className="card-mini">

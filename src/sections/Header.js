@@ -10,6 +10,9 @@ import Person from "../components/header/Person";
 import ScrollNavbar from "../components/header/ScrollNavbar";
 import MiniNavbar from "../components/header/MiniNavbar";
 import TypeWriter from "../components/header/TypeWriter";
+import Pic2 from "../styles/images/pic-2.jpeg"
+import Pic1 from "../styles/images/pic-1.png"
+import Pic3 from "../styles/images/pic-3.png"
 
 const Header = ({windowDimensions, navBg}) => {
   
@@ -37,7 +40,7 @@ const Header = ({windowDimensions, navBg}) => {
               text="protector"
               marginLeft={windowDimensions.width < 1100 ? "76vw" : "70vw"}
               marginTop={windowDimensions.width < 1100 ? "340px" : "270px"}
-              photo="https://drive.google.com/uc?export=view&id=1alkGVwrJw8fi0Sd_cj6PvCroZ0VpoOum"
+              photo={Pic2}
             />
           )}
           {windowDimensions.width > 979 && (
@@ -46,7 +49,7 @@ const Header = ({windowDimensions, navBg}) => {
               text="programmer"
               marginLeft={windowDimensions.width < 1100 ? "80vw" : "75vw"}
               marginTop={windowDimensions.width < 1100 ? "120px" : "50px"}
-              photo="https://drive.google.com/uc?export=view&id=1fZSdUiGAQZgS9byNHuD4meWLbjoljzBo"
+              photo={Pic1}
             />
           )}
           {windowDimensions.width > 979 && (
@@ -55,7 +58,7 @@ const Header = ({windowDimensions, navBg}) => {
               text="Designer"
               marginLeft={windowDimensions.width < 1100 ? "72vw" : "65vw"}
               marginTop="-15px"
-              photo="https://drive.google.com/uc?export=view&id=1lcF9GfR46RwlHc3fF69qZY-JqB_Dn2zc"
+              photo={Pic3}
             />
           )}
         </div>

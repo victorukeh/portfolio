@@ -3,6 +3,7 @@ import { IconButton } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
+import V from "../../styles/images/v.png"
 import "../../styles/css/header.css";
 
 const MiniNavbar = () => {
@@ -17,7 +18,7 @@ const MiniNavbar = () => {
   return (
     <div className="mini__navbar">
       <img
-        src="https://drive.google.com/uc?export=view&id=1fwGjDgOaE4Nn3yBNL2cAQz5W-bRBj8Hv"
+        src={V}
         height={100}
         alt="Me"
       />

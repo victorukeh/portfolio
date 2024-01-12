@@ -1,5 +1,11 @@
 import React from "react";
 import Card from "../components/education/Card";
+import Nysc from "../styles/images/nysc.png"
+import Udacity from "../styles/images/udacity.png"
+import Google from "../styles/images/google.png"
+import CU from "../styles/images/cu_logo.png"
+import FreeCode from "../styles/images/freecodecamp.png"
+import CCNA from "../styles/images/ccna.png"
 import "../styles/css/education.css";
 
 const Education = () => {
@@ -10,7 +16,7 @@ const Education = () => {
       </h1>
       <div className="education__institutions">
         <Card
-          logo="https://drive.google.com/uc?export=view&id=1-DO5QXtW7FE-I0EN8rHkncBPNNoxN1pm"
+          logo={Nysc}
           title="National Youth Service Corp"
           type="National Service Certificate"
           color="#faf8d4"
@@ -18,7 +24,7 @@ const Education = () => {
           size="50"
         />
         <Card
-          logo="https://drive.google.com/uc?export=view&id=19v-bhXnxvQIam84SulJCQiNUvmbJ_ud5"
+          logo={Udacity}
           color="#f2f2f2"
           title="Cloud Developer"
           type="Professional Certificate"
@@ -26,21 +32,21 @@ const Education = () => {
           view="https://learn.udacity.com/view-certificate/nd9990-alg-t2"
         />
         <Card
-          logo="https://drive.google.com/uc?export=view&id=1_kcDfl3Ihv_BQU0-SARMJNErd3ZDOFip"
+          logo={Google}
           title="Google IT Support Specialization"
           type="Professional Certificate"
           date="Feb 2022"
           view="https://www.coursera.org/account/accomplishments/specialization/certificate/PMNL4HT63YUJ"
         />
         <Card
-          logo="https://drive.google.com/uc?export=view&id=1ICY-LbUuWbW1q7BvDAVE_gWmpRfhqqWr"
+          logo={CU}
           color="#f4ebfe"
           title="Computer Engineering"
           type="Bachelors of Engineering"
           date="Oct 2021"
         />
         <Card
-          logo="https://drive.google.com/uc?export=view&id=1M_doLBbQWcI2b8kdz6hjKonuSSxL4FSy"
+          logo={FreeCode}
           color="#0a0a23"
           type="Professional Certificate"
           title="Responsive Web Design"
@@ -48,7 +54,7 @@ const Education = () => {
           view="https://www.freecodecamp.org/certification/fccc2535c71-adc6-48e5-a72d-ffb430a7aa35/responsive-web-design"
         />
         <Card
-          logo="https://drive.google.com/uc?export=view&id=1wDQsODzG9jfFZj4SRgo4-dR8bhQqO7ib"
+          logo={CCNA}
           title="Cisco Certified Network Associate"
           type="Professional Certificate"
           date="Apr 2019 - Oct 2022"

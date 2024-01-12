@@ -3,6 +3,8 @@ import { TextField, Button } from "@mui/material";
 import ContactInfo from "./ContactInfo";
 import emailjs from "emailjs-com";
 import Message from "./Message";
+import Envelope from "../../styles/images/envelope.png"
+import Phone from "../../styles/images/phone.png"
 import "../../styles/css/contact.css";
 
 const Form = () => {
@@ -50,12 +52,12 @@ const Form = () => {
         <ContactInfo
           text="victorukeh1@gmail.com"
           color="#f6f6f6"
-          icon="https://drive.google.com/uc?export=view&id=13hhRRgC3s6EVcZX7cXBfUJk_vFKeNgQH"
+          icon={Envelope}
         />
         <ContactInfo
           text="(+234)904-665-9704"
           color="#55c2f2"
-          icon="https://drive.google.com/uc?export=view&id=1AtyN-w_VHkHSqfujNyg4rRNcDlOXxJOk"
+          icon={Phone}
         />
       </div>
       <div className="contact__form__texts">
