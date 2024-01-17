@@ -81,21 +81,6 @@ const Card = () => {
               </div>
             </div>
           </a>
-
-          <div className="carousel-item">
-            <img className="carousel-item__img" src={Aljys} alt="exam" />
-            <div className="carousel-item__details">
-              <div className="controls">
-                <span className="fas fa-play-circle"></span>
-                <span className="fas fa-plus-circle"></span>
-              </div>
-              <h5 className="carousel-item__details--title">PXN</h5>
-              <h6 className="carousel-item__details--subtitle">
-                A platform that users e-commerce, logistics and utilities to
-                simplify the <wbr></wbr> online marketplace
-              </h6>
-            </div>
-          </div>
           <a
             href="http://ukehmeets.onrender.com/"
             target="_blank"
